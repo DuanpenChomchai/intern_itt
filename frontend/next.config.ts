@@ -8,7 +8,10 @@ const withSerwist = withSerwistInit({
 });
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  images: {
+    unoptimized: false,
+  },
 };
 
 export default withSerwist(nextConfig);
