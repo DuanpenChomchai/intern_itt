@@ -1,29 +1,32 @@
 import ProviderComponent from '@/components/layouts/provider-component';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import '../styles/tailwind.css';
-import { Metadata, Viewport } from 'next';
+import { Metadata } from 'next';
 import { Nunito } from 'next/font/google';
 
-export const viewport: Viewport = {
-    themeColor: '#000000',
-};
+const defaultTitle = 'VRISTO - Multipurpose Tailwind Dashboard Template';
 
 export const metadata: Metadata = {
     title: {
-        template: '%s | Intern-iTT',
-        default: 'Intern-iTT',
+        template: '%s | VRISTO - Multipurpose Tailwind Dashboard Template',
+        default: defaultTitle,
     },
-    description: 'Intern-iTT Admin Dashboard',
+    description: 'A modern admin dashboard application built with Next.js, React 19, and TypeScript',
+    manifest: '/manifest.json',
+    themeColor: '#009688',
     appleWebApp: {
         capable: true,
-        statusBarStyle: 'default',
-        title: 'Intern-iTT',
+        statusBarStyle: 'black-translucent',
+        title: 'Vristo',
     },
     formatDetection: {
         telephone: false,
     },
+    icons: {
+        icon: '/pwa-icons/icon-192x192.svg',
+        apple: '/pwa-icons/icon-192x192.svg',
+    },
 };
-
 const nunito = Nunito({
     weight: ['400', '500', '600', '700', '800'],
     subsets: ['latin'],

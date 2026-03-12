@@ -62,34 +62,6 @@ module.exports = {
             spacing: {
                 4.5: '18px',
             },
-            animation: {
-                float1: 'float1 14s infinite ease-in-out',
-                float2: 'float2 16s infinite ease-in-out',
-                float3: 'float3 15s infinite ease-in-out',
-                float4: 'float4 18s infinite ease-in-out',
-            },
-            keyframes: {
-                float1: {
-                    '0%, 100%': { transform: 'translate(0, 0) scale(1)' },
-                    '33%': { transform: 'translate(5vw, 5vh) scale(1.05)' },
-                    '66%': { transform: 'translate(-2vw, 8vh) scale(0.95)' },
-                },
-                float2: {
-                    '0%, 100%': { transform: 'translate(0, 0) scale(1)' },
-                    '33%': { transform: 'translate(-5vw, 5vh) scale(0.95)' },
-                    '66%': { transform: 'translate(2vw, 8vh) scale(1.05)' },
-                },
-                float3: {
-                    '0%, 100%': { transform: 'translate(0, 0) scale(1)' },
-                    '33%': { transform: 'translate(5vw, -5vh) scale(1.05)' },
-                    '66%': { transform: 'translate(-2vw, -8vh) scale(0.95)' },
-                },
-                float4: {
-                    '0%, 100%': { transform: 'translate(0, 0) scale(1)' },
-                    '33%': { transform: 'translate(-5vw, -5vh) scale(0.95)' },
-                    '66%': { transform: 'translate(2vw, -8vh) scale(1.05)' },
-                },
-            },
             boxShadow: {
                 '3xl': '0 2px 2px rgb(224 230 237 / 46%), 1px 6px 7px rgb(224 230 237 / 46%)',
             },

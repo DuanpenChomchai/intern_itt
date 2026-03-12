@@ -8,8 +8,8 @@ export default function Home() {
             <div className="text-center">
                 <h1 className="text-4xl font-bold text-primary mb-4">Intern-iTT</h1>
                 <p className="text-lg text-white-dark mb-8">Welcome to Intern-iTT Dashboard</p>
-                <Link href="/student" className="btn btn-primary">
-                    Go to Student Dashboard
+                <Link href="/analytics" className="btn btn-primary">
+                    Go to Dashboard
                 </Link>
             </div>
         </div>
